@@ -1,0 +1,38 @@
+:root {
+  /* Colors */
+  --text: #12425b;
+  --text-light: #888;
+  --text-heavy: #092634;
+  --paper: #f2f2f2;
+  --drop-shadow: #d6d6d6;
+  --love: #e55d5d;
+  /* typography */
+  --font-family: Arial, sans-serif;
+  --font-size: 14px;
+  /* Misc */
+  --border-radius: 4px;
+  --padding: 1rem; }
+
+disco-header {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1rem; }
+  disco-header .disco-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    disco-header .disco-header__left {
+      flex: 1;
+      margin: 0;
+      min-width: 400px; }
+    disco-header .disco-header__right {
+      vertical-align: middle; }
+    disco-header .disco-header__title {
+      font-family: var(--font-family);
+      font-size: 1.4rem;
+      font-weight: 800;
+      line-height: 1.4rem; }
+    disco-header .disco-header__release-date {
+      color: var(--text-light);
+      margin: 1rem 0; }

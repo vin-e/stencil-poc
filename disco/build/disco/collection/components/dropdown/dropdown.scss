@@ -1,0 +1,53 @@
+disco-dropdown {
+  .disco-dropdown {
+    &__value-container {
+      display: inline-block;
+      margin-bottom: 6px;
+      margin-top: 9px;
+      position: relative;
+      width: 100%;
+    }
+
+    &__placeholder, &__value {
+      @include paragraph;
+      border-radius: var(--border-radius);
+      border: 1px solid var(--text-light);
+      box-sizing: border-box;
+      height: 36px;
+      padding: 0.6rem 1rem;
+      width: 100%;
+
+      &::after {
+        content: '▿';
+        position: absolute;
+        top: 6px;
+        right: 1rem;
+      }
+    }
+    &__placeholder {
+      color: var(--text-light);
+    }
+
+    &__list {
+      display: none;
+      background: #fff;
+      border-radius: 4px;
+      box-shadow: 0px 1px 4px 0px var(--text-light);
+      position: absolute;
+      left: 0px;
+      top: 36px;
+      width: 100%;
+      z-index: 100;
+
+      &--show {
+        display: block;
+      }
+
+      &-ul {
+        list-style: none;
+        padding: 0;
+        margin: 12px 0px;
+      }
+    }
+  }
+}

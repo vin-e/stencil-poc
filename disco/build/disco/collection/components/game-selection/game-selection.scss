@@ -1,0 +1,16 @@
+disco-game-selection {
+  .disco-game-selection {
+    @include paragraph;
+
+    margin: 72px 36px 0;
+    &__img {
+      height: 210px;
+      padding-bottom: 28px;
+      width: 210px;
+    }
+
+    &__title, &__ratings, &__released-in {
+      padding: 8px 0;
+    }
+  }
+}

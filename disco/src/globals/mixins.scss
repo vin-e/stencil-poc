@@ -1,0 +1,28 @@
+@mixin paragraph() {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1rem;
+}
+
+@mixin header() {
+  font-family: var(--font-family);
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1.4rem;
+}
+
+@mixin caption {
+  font-family: var(--font-family);
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 0.8rem;
+}
+
+@mixin label {
+  font-family: var(--font-family);
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 0.8rem;
+  text-transform: uppercase;
+}

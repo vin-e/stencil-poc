@@ -1,0 +1,506 @@
+{
+  "components": [
+    {
+      "tag": "disco-card",
+      "dependencies": [],
+      "componentClass": "DiscoCard",
+      "componentPath": "components/card/card.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/card/card.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "selected",
+          "type": "Boolean",
+          "attr": "selected"
+        }
+      ]
+    },
+    {
+      "tag": "disco-dropdown",
+      "dependencies": [
+        "disco-error",
+        "disco-label",
+        "disco-option"
+      ],
+      "componentClass": "DiscoDropDown",
+      "componentPath": "components/dropdown/dropdown.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/dropdown/dropdown.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "error",
+          "type": "String",
+          "attr": "error"
+        },
+        {
+          "name": "label",
+          "type": "String",
+          "attr": "label"
+        },
+        {
+          "name": "maxlength",
+          "type": "String",
+          "attr": "maxlength"
+        },
+        {
+          "name": "minlength",
+          "type": "String",
+          "attr": "minlength"
+        },
+        {
+          "name": "options",
+          "attr": "options"
+        },
+        {
+          "name": "placeholder",
+          "type": "String",
+          "attr": "placeholder"
+        },
+        {
+          "name": "value",
+          "type": "String",
+          "mutable": true,
+          "attr": "value"
+        },
+        {
+          "name": "valueLabel",
+          "type": "String",
+          "mutable": true,
+          "attr": "value-label"
+        },
+        {
+          "name": "width",
+          "type": "String",
+          "attr": "width"
+        }
+      ],
+      "states": [
+        {
+          "name": "show"
+        }
+      ],
+      "listeners": [
+        {
+          "event": "discoDropDownOptionSelected",
+          "method": "discoDropDownOptionSelectedHandler",
+          "passive": false,
+          "capture": false
+        }
+      ],
+      "hostElement": {
+        "name": "el"
+      },
+      "events": [
+        {
+          "event": "discoDropDownSelected"
+        }
+      ]
+    },
+    {
+      "tag": "disco-error",
+      "dependencies": [],
+      "componentClass": "DiscoError",
+      "componentPath": "components/error/error.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/error/error.scss"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "disco-game-card",
+      "dependencies": [
+        "disco-card",
+        "disco-header"
+      ],
+      "componentClass": "DiscoList",
+      "componentPath": "components/game-card/game-card.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/game-card/game-card.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "game",
+          "type": "Any",
+          "attr": "game"
+        },
+        {
+          "name": "selected",
+          "type": "Boolean",
+          "attr": "selected"
+        }
+      ],
+      "events": [
+        {
+          "event": "discoGameCardSelected"
+        }
+      ]
+    },
+    {
+      "tag": "disco-game-selection",
+      "dependencies": [
+        "disco-ratings"
+      ],
+      "componentClass": "DiscoGameSelection",
+      "componentPath": "components/game-selection/game-selection.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/game-selection/game-selection.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "count",
+          "type": "String",
+          "attr": "count"
+        },
+        {
+          "name": "hearts",
+          "type": "String",
+          "attr": "hearts"
+        },
+        {
+          "name": "imgUrl",
+          "type": "String",
+          "attr": "img-url"
+        },
+        {
+          "name": "percent",
+          "type": "String",
+          "attr": "percent"
+        },
+        {
+          "name": "releaseDate",
+          "type": "String",
+          "attr": "release-date"
+        },
+        {
+          "name": "title",
+          "type": "String",
+          "attr": "title"
+        }
+      ]
+    },
+    {
+      "tag": "disco-header",
+      "dependencies": [
+        "disco-ratings"
+      ],
+      "componentClass": "DiscoHeader",
+      "componentPath": "components/header/header.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/header/header.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "count",
+          "type": "String",
+          "attr": "count"
+        },
+        {
+          "name": "hearts",
+          "type": "String",
+          "attr": "hearts"
+        },
+        {
+          "name": "percent",
+          "type": "String",
+          "attr": "percent"
+        },
+        {
+          "name": "releaseDate",
+          "type": "String",
+          "attr": "release-date"
+        },
+        {
+          "name": "title",
+          "type": "String",
+          "attr": "title"
+        }
+      ]
+    },
+    {
+      "tag": "disco-input",
+      "dependencies": [
+        "disco-error",
+        "disco-label"
+      ],
+      "componentClass": "DiscoInput",
+      "componentPath": "components/input/input.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/input/input.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "error",
+          "type": "String",
+          "attr": "error"
+        },
+        {
+          "name": "label",
+          "type": "String",
+          "attr": "label"
+        },
+        {
+          "name": "maxlength",
+          "type": "String",
+          "attr": "maxlength"
+        },
+        {
+          "name": "minlength",
+          "type": "String",
+          "attr": "minlength"
+        },
+        {
+          "name": "placeholder",
+          "type": "String",
+          "attr": "placeholder"
+        },
+        {
+          "name": "type",
+          "type": "String",
+          "attr": "type"
+        },
+        {
+          "name": "value",
+          "type": "String",
+          "mutable": true,
+          "attr": "value"
+        },
+        {
+          "name": "width",
+          "type": "String",
+          "attr": "width"
+        }
+      ],
+      "hostElement": {
+        "name": "el"
+      },
+      "events": [
+        {
+          "event": "discoInput"
+        }
+      ]
+    },
+    {
+      "tag": "disco-label",
+      "dependencies": [],
+      "componentClass": "DiscoLabel",
+      "componentPath": "components/label/label.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/label/label.scss"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "disco-list",
+      "dependencies": [
+        "disco-dropdown",
+        "disco-game-card",
+        "disco-input",
+        "disco-label",
+        "disco-release-years"
+      ],
+      "componentClass": "DiscoList",
+      "componentPath": "components/list/list.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/list/list.scss"
+          ]
+        }
+      },
+      "states": [
+        {
+          "name": "games"
+        },
+        {
+          "name": "isLoading"
+        },
+        {
+          "name": "releaseEndYear"
+        },
+        {
+          "name": "releaseStartYear"
+        },
+        {
+          "name": "searchField"
+        },
+        {
+          "name": "selectedId"
+        },
+        {
+          "name": "sortBy"
+        }
+      ],
+      "listeners": [
+        {
+          "event": "discoDropDownSelected",
+          "method": "onDiscoDropDownSelected",
+          "passive": false,
+          "capture": false
+        },
+        {
+          "event": "discoGameCardSelected",
+          "method": "onDiscoGameSelected",
+          "passive": false,
+          "capture": false
+        },
+        {
+          "event": "discoInput",
+          "method": "onDiscoInput",
+          "passive": false,
+          "capture": false
+        },
+        {
+          "event": "discoReleaseYears",
+          "method": "onDiscoReleaseYears",
+          "passive": false,
+          "capture": false
+        }
+      ],
+      "events": [
+        {
+          "event": "discoGameSelected"
+        }
+      ]
+    },
+    {
+      "tag": "disco-option",
+      "dependencies": [],
+      "componentClass": "DiscoDropDown",
+      "componentPath": "components/dropdown/dropdown-option/option.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/dropdown/dropdown-option/option.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "label",
+          "type": "String",
+          "attr": "label"
+        },
+        {
+          "name": "selected",
+          "type": "Boolean",
+          "attr": "selected"
+        },
+        {
+          "name": "value",
+          "type": "String",
+          "attr": "value"
+        }
+      ],
+      "events": [
+        {
+          "event": "discoDropDownOptionSelected"
+        }
+      ]
+    },
+    {
+      "tag": "disco-ratings",
+      "dependencies": [],
+      "componentClass": "DiscoRatings",
+      "componentPath": "components/ratings/ratings.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/ratings/ratings.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "count",
+          "type": "String",
+          "attr": "count"
+        },
+        {
+          "name": "hearts",
+          "type": "String",
+          "attr": "hearts"
+        },
+        {
+          "name": "percent",
+          "type": "String",
+          "attr": "percent"
+        }
+      ]
+    },
+    {
+      "tag": "disco-release-years",
+      "dependencies": [
+        "disco-error",
+        "disco-input",
+        "disco-label"
+      ],
+      "componentClass": "DiscoReleaseYears",
+      "componentPath": "components/release-years/release-years.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/release-years/release-years.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "endYear",
+          "type": "String",
+          "mutable": true,
+          "attr": "end-year"
+        },
+        {
+          "name": "startYear",
+          "type": "String",
+          "mutable": true,
+          "attr": "start-year"
+        }
+      ],
+      "events": [
+        {
+          "event": "discoReleaseYears"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.16.1",
+    "typescriptVersion": "3.1.6"
+  },
+  "bundles": []
+}

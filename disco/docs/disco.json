@@ -1,0 +1,258 @@
+{
+  "components": [
+    {
+      "tag": "disco-card",
+      "readme": "",
+      "usage": {},
+      "props": [],
+      "methods": [],
+      "events": [],
+      "styles": []
+    },
+    {
+      "tag": "disco-error",
+      "readme": "",
+      "usage": {},
+      "props": [],
+      "methods": [],
+      "events": [],
+      "styles": []
+    },
+    {
+      "tag": "disco-game-selection",
+      "readme": "",
+      "usage": {},
+      "props": [
+        {
+          "name": "count",
+          "type": "string",
+          "attr": "count",
+          "docs": ""
+        },
+        {
+          "name": "hearts",
+          "type": "string",
+          "attr": "hearts",
+          "docs": ""
+        },
+        {
+          "name": "imgUrl",
+          "type": "string",
+          "attr": "img-url",
+          "docs": ""
+        },
+        {
+          "name": "percent",
+          "type": "string",
+          "attr": "percent",
+          "docs": ""
+        },
+        {
+          "name": "releaseDate",
+          "type": "string",
+          "attr": "release-date",
+          "docs": ""
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "attr": "title",
+          "docs": ""
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "styles": []
+    },
+    {
+      "tag": "disco-header",
+      "readme": "",
+      "usage": {},
+      "props": [
+        {
+          "name": "count",
+          "type": "string",
+          "attr": "count",
+          "docs": ""
+        },
+        {
+          "name": "hearts",
+          "type": "string",
+          "attr": "hearts",
+          "docs": ""
+        },
+        {
+          "name": "percent",
+          "type": "string",
+          "attr": "percent",
+          "docs": ""
+        },
+        {
+          "name": "releaseDate",
+          "type": "string",
+          "attr": "release-date",
+          "docs": ""
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "attr": "title",
+          "docs": ""
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "styles": []
+    },
+    {
+      "tag": "disco-input",
+      "readme": "",
+      "usage": {},
+      "props": [
+        {
+          "name": "error",
+          "type": "string",
+          "attr": "error",
+          "docs": ""
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "attr": "label",
+          "docs": ""
+        },
+        {
+          "name": "maxlength",
+          "type": "string",
+          "attr": "maxlength",
+          "docs": ""
+        },
+        {
+          "name": "minlength",
+          "type": "string",
+          "attr": "minlength",
+          "docs": ""
+        },
+        {
+          "name": "placeholder",
+          "type": "string",
+          "attr": "placeholder",
+          "docs": ""
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "attr": "type",
+          "docs": ""
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "mutable": true,
+          "attr": "value",
+          "docs": ""
+        },
+        {
+          "name": "width",
+          "type": "string",
+          "attr": "width",
+          "docs": ""
+        }
+      ],
+      "methods": [],
+      "events": [
+        {
+          "event": "discoInput",
+          "bubbles": true,
+          "cancelable": true,
+          "composed": true,
+          "docs": ""
+        }
+      ],
+      "styles": []
+    },
+    {
+      "tag": "disco-label",
+      "readme": "",
+      "usage": {},
+      "props": [],
+      "methods": [],
+      "events": [],
+      "styles": []
+    },
+    {
+      "tag": "disco-ratings",
+      "readme": "",
+      "usage": {},
+      "props": [
+        {
+          "name": "count",
+          "type": "string",
+          "attr": "count",
+          "docs": ""
+        },
+        {
+          "name": "hearts",
+          "type": "string",
+          "attr": "hearts",
+          "docs": ""
+        },
+        {
+          "name": "percent",
+          "type": "string",
+          "attr": "percent",
+          "docs": ""
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "styles": []
+    },
+    {
+      "tag": "disco-release-years",
+      "readme": "",
+      "usage": {},
+      "props": [
+        {
+          "name": "endYear",
+          "type": "string",
+          "mutable": true,
+          "attr": "end-year",
+          "docs": ""
+        },
+        {
+          "name": "startYear",
+          "type": "string",
+          "mutable": true,
+          "attr": "start-year",
+          "docs": ""
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "styles": []
+    },
+    {
+      "tag": "my-component",
+      "readme": "",
+      "usage": {},
+      "props": [
+        {
+          "name": "first",
+          "type": "string",
+          "attr": "first",
+          "docs": ""
+        },
+        {
+          "name": "last",
+          "type": "string",
+          "attr": "last",
+          "docs": ""
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "styles": []
+    }
+  ]
+}

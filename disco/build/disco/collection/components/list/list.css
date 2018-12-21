@@ -1,0 +1,33 @@
+:root {
+  /* Colors */
+  --text: #12425b;
+  --text-light: #888;
+  --text-heavy: #092634;
+  --paper: #f2f2f2;
+  --drop-shadow: #d6d6d6;
+  --love: #e55d5d;
+  /* typography */
+  --font-family: Arial, sans-serif;
+  --font-size: 14px;
+  /* Misc */
+  --border-radius: 4px;
+  --padding: 1rem; }
+
+disco-list .disco-list {
+  padding: 24px 72px;
+  display: grid;
+  grid-template-columns: 240px auto 180px 192px;
+  grid-template-rows: 76px auto;
+  grid-template-areas: "filter . releaseyear sort" "main main main main";
+  grid-column-gap: 16px;
+  grid-row-gap: 24px; }
+  disco-list .disco-list__filter {
+    grid-area: filter; }
+  disco-list .disco-list__release-year {
+    grid-area: releaseyear; }
+  disco-list .disco-list__sort {
+    grid-area: sort; }
+  disco-list .disco-list__main {
+    grid-area: main;
+    min-height: 4em;
+    max-height: 100%; }

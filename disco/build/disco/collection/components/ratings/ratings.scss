@@ -1,0 +1,12 @@
+disco-ratings {
+  @include paragraph;
+
+  color: var(--text-light);
+  margin: 1rem 0;
+
+  .disco-ratings {
+    &__heart {
+      color: var(--love);
+    }
+  }
+}

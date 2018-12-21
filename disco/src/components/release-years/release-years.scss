@@ -1,0 +1,26 @@
+disco-release-years {
+  .disco-release-years {
+    position: relative;
+    width: 180px;
+
+    &__input-container {
+      width: 180px;
+      disco-input {
+        display: inline-block;
+        input {
+          padding-left: 0.9rem;
+          padding-right: 0.9rem;
+        }
+      }
+    }
+
+    &__to {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+  disco-error {
+    width: 180px;
+  }
+}

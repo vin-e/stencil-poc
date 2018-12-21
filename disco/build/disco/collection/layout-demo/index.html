@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+    <title>Disco Proof of concept</title>
+    <script src="../build/disco.js"></script>
+
+    <style>
+      /* Styles for layout below */
+      html { height: 100%; }
+      body {
+        margin: 0;
+        min-height: 100%;
+        padding: 0;
+      }
+      .demo-container {
+        display: grid;
+        grid-template-columns: auto 480px;
+        grid-template-rows: auto;
+        grid-template-areas: "main sidebar";
+
+        align-content: stretch;
+        justify-content: stretch;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      .demo-container__sidebar {
+        grid-area: sidebar;
+
+        background-color: #f3f1f1;
+        border-left: 1px solid #cfcfcf;
+      }
+
+      .demo-container__main {
+        grid-area: main;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="demo-container">
+      <div class="demo-container__main">
+        <disco-list></disco-list>
+      </div>
+      <div class="demo-container__sidebar">
+        <disco-game-selection img-url="https://images.igdb.com/igdb/image/upload/t_thumb/klrrql6nidmxmmyef7zu.jpg" title="Heavy Rain" release-date="Feb 2012" percent="94.3" count="433" hearts="134"></disco-game-selection>
+      </div>
+    </div>
+  </body>
+</html>

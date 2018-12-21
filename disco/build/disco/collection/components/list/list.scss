@@ -1,0 +1,29 @@
+disco-list {
+  .disco-list {
+    padding: 24px 72px;
+
+    display: grid;
+    grid-template-columns: 240px auto 180px 192px;
+    grid-template-rows: 76px auto;
+    grid-template-areas: 
+      "filter . releaseyear sort"
+      "main main main main";
+    grid-column-gap: 16px;
+    grid-row-gap: 24px;
+
+    &__filter {
+      grid-area: filter;
+    }
+    &__release-year {
+      grid-area: releaseyear;
+    }
+    &__sort {
+      grid-area: sort;
+    }
+    &__main {
+      grid-area: main;
+      min-height:4em;
+      max-height:100%;
+    }
+  }
+}

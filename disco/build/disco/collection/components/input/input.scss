@@ -1,0 +1,19 @@
+disco-input {
+  input {
+    @include paragraph;
+
+    border: 1px solid var(--text-light);
+    border-radius: var(--border-radius);
+    color: var(--text-heavy);
+    font-family: var(--font-family);
+    height: 32px;
+    margin-bottom: 6px;
+    margin-top: 9px;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+
+    ::placeholder {
+      color: var(--text-light);
+    }
+  }
+}

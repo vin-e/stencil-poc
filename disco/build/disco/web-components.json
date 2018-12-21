@@ -1,0 +1,263 @@
+{
+  "tags": [
+    {
+      "label": "disco-card",
+      "description": "",
+      "attributes": [
+        {
+          "label": "selected",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "disco-option",
+      "description": "",
+      "attributes": [
+        {
+          "label": "label",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "selected",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "value",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "disco-dropdown",
+      "description": "",
+      "attributes": [
+        {
+          "label": "error",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "label",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "maxlength",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "minlength",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "placeholder",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "value",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "value-label",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "width",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "disco-error",
+      "description": "",
+      "attributes": []
+    },
+    {
+      "label": "disco-game-card",
+      "description": "",
+      "attributes": [
+        {
+          "label": "game",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "selected",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "disco-game-selection",
+      "description": "",
+      "attributes": [
+        {
+          "label": "count",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "hearts",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "img-url",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "percent",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "release-date",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "title",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "disco-header",
+      "description": "",
+      "attributes": [
+        {
+          "label": "count",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "hearts",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "percent",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "release-date",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "title",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "disco-input",
+      "description": "",
+      "attributes": [
+        {
+          "label": "error",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "label",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "maxlength",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "minlength",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "placeholder",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "type",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "value",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "width",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "disco-label",
+      "description": "",
+      "attributes": []
+    },
+    {
+      "label": "disco-list",
+      "description": "",
+      "attributes": []
+    },
+    {
+      "label": "disco-ratings",
+      "description": "",
+      "attributes": [
+        {
+          "label": "count",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "hearts",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "percent",
+          "description": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "disco-release-years",
+      "description": "",
+      "attributes": [
+        {
+          "label": "end-year",
+          "description": "",
+          "required": false
+        },
+        {
+          "label": "start-year",
+          "description": "",
+          "required": false
+        }
+      ]
+    }
+  ]
+}

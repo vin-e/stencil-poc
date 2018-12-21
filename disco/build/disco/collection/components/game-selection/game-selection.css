@@ -1,0 +1,27 @@
+:root {
+  /* Colors */
+  --text: #12425b;
+  --text-light: #888;
+  --text-heavy: #092634;
+  --paper: #f2f2f2;
+  --drop-shadow: #d6d6d6;
+  --love: #e55d5d;
+  /* typography */
+  --font-family: Arial, sans-serif;
+  --font-size: 14px;
+  /* Misc */
+  --border-radius: 4px;
+  --padding: 1rem; }
+
+disco-game-selection .disco-game-selection {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1rem;
+  margin: 72px 36px 0; }
+  disco-game-selection .disco-game-selection__img {
+    height: 210px;
+    padding-bottom: 28px;
+    width: 210px; }
+  disco-game-selection .disco-game-selection__title, disco-game-selection .disco-game-selection__ratings, disco-game-selection .disco-game-selection__released-in {
+    padding: 8px 0; }

@@ -1,0 +1,40 @@
+:root {
+  /* Colors */
+  --text: #12425b;
+  --text-light: #888;
+  --text-heavy: #092634;
+  --paper: #f2f2f2;
+  --drop-shadow: #d6d6d6;
+  --love: #e55d5d;
+  /* typography */
+  --font-family: Arial, sans-serif;
+  --font-size: 14px;
+  /* Misc */
+  --border-radius: 4px;
+  --padding: 1rem; }
+
+disco-card .disco-card {
+  background-color: var(--paper);
+  border-radius: 4px;
+  box-shadow: 5px 6px 7px 0px var(--text-light);
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  margin: 12px 0;
+  max-height: 180px;
+  min-height: 180px;
+  padding: 18px 24px; }
+  disco-card .disco-card hr {
+    margin: 0; }
+  disco-card .disco-card p {
+    margin: 0;
+    margin-top: 9px;
+    max-height: 100px;
+    overflow: auto;
+    padding: 0; }
+  disco-card .disco-card--selected {
+    box-shadow: 8px 9px 11px 0px var(--text-light);
+    transform: translate3d(-6px, -7px, 0);
+    transition-duration: 600ms;
+    transition-property: box-shadow,transform;
+    transition-timing-function: cubic-bezier(0.16, 1, 0.29, 0.99); }

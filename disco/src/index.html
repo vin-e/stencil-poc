@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Disco Proof of concept</title>
+  <script src="/build/disco.js"></script>
+
+  <style>
+    /* DO NOT USE THE FOLLOWING ANYWHERE ELSE. THIS IS FOR DISPLAYING THE CONTENT ON THIS PAGE ONLY */
+    body {
+      background: #d4d4d4;
+      margin: 0 auto;
+    }
+    .disco-stencil-demo-container {
+      background: #fff;
+      margin: 40px;
+      padding: 20px;
+      position: relative;
+      width: calc(100% - 120px);
+    }
+    .disco-stencil-demo-item {
+      position: absolute;
+      top: -25px;
+      left: 0px;
+    }
+  </style>
+</head>
+<body>
+  <div class="disco-stencil-demo-container">
+    <h1>Component Demos</h1>
+    <small>
+      <a href="layout-demo/">To Layout Demo</a>
+    </small>
+  </div>
+
+  <div class="disco-stencil-demo-container">
+    <div class="disco-stencil-demo-item">Disco-Label</div>
+    <disco-label>Test</disco-label>  
+  </div>
+
+  <div class="disco-stencil-demo-container">
+    <div class="disco-stencil-demo-item">Disco-Error</div>
+    <disco-error>Error message here.</disco-error>
+  </div>
+  
+  <div class="disco-stencil-demo-container">
+    <div class="disco-stencil-demo-item">Disco-Input</div>
+    <disco-input placeholder="Placeholder text" label="Dynamic label here" error="Dynamic error message here"></disco-input>
+  </div>
+
+  <div class="disco-stencil-demo-container">
+    <div class="disco-stencil-demo-item">Disco-Dropdown</div>
+    <disco-dropdown placeholder="Placeholder text" label="Dynamic label here">
+    </disco-dropdown>
+    <disco-error>This requires an array of options with props of value and label</disco-error>
+  </div>
+
+  <div class="disco-stencil-demo-container">
+    <div class="disco-stencil-demo-item">Disco-Ratings</div>
+    <disco-ratings percent="94.3" count="433" hearts="134">
+  </div>
+
+  <div class="disco-stencil-demo-container">
+    <div class="disco-stencil-demo-item">Disco-Release-Years</div>
+    <disco-release-years></disco-release-years>
+  </div>
+
+  <div class="disco-stencil-demo-container">
+    <div class="disco-stencil-demo-item">Disco-Card</div>
+    <disco-card>
+      <disco-header slot="header" title="Heavy Rain" release-date="Feb 2012" percent="94.3" count="433" hearts="134"></disco-header>
+      <p>
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      </p>
+    </disco-card>
+  </div>
+
+  <div class="disco-stencil-demo-container">
+    <div class="disco-stencil-demo-item">Disco-Card Selected</div>
+    <disco-card selected="true" >
+      <disco-header slot="header" title="Heavy Rain" release-date="Feb 2012" percent="94.3" count="433" hearts="134"></disco-header>
+      <p>
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      </p>
+    </disco-card>
+  </div>
+
+  <div class="disco-stencil-demo-container">
+    <div class="disco-stencil-demo-item">Disco-Card</div>
+    <disco-game-selection img-url="https://images.igdb.com/igdb/image/upload/t_thumb/klrrql6nidmxmmyef7zu.jpg" title="Heavy Rain" release-date="Feb 2012" percent="94.3" count="433" hearts="134"></disco-game-selection>
+  </div>
+    
+</body>
+</html>

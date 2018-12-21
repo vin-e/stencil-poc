@@ -1,0 +1,24 @@
+:root {
+  /* Colors */
+  --text: #12425b;
+  --text-light: #888;
+  --text-heavy: #092634;
+  --paper: #f2f2f2;
+  --drop-shadow: #d6d6d6;
+  --love: #e55d5d;
+  /* typography */
+  --font-family: Arial, sans-serif;
+  --font-size: 14px;
+  /* Misc */
+  --border-radius: 4px;
+  --padding: 1rem; }
+
+disco-ratings {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1rem;
+  color: var(--text-light);
+  margin: 1rem 0; }
+  disco-ratings .disco-ratings__heart {
+    color: var(--love); }

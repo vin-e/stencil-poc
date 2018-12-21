@@ -1,0 +1,31 @@
+:root {
+  /* Colors */
+  --text: #12425b;
+  --text-light: #888;
+  --text-heavy: #092634;
+  --paper: #f2f2f2;
+  --drop-shadow: #d6d6d6;
+  --love: #e55d5d;
+  /* typography */
+  --font-family: Arial, sans-serif;
+  --font-size: 14px;
+  /* Misc */
+  --border-radius: 4px;
+  --padding: 1rem; }
+
+disco-release-years .disco-release-years {
+  position: relative;
+  width: 180px; }
+  disco-release-years .disco-release-years__input-container {
+    width: 180px; }
+    disco-release-years .disco-release-years__input-container disco-input {
+      display: inline-block; }
+      disco-release-years .disco-release-years__input-container disco-input input {
+        padding-left: 0.9rem;
+        padding-right: 0.9rem; }
+  disco-release-years .disco-release-years__to {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+disco-release-years disco-error {
+  width: 180px; }

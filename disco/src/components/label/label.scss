@@ -1,0 +1,7 @@
+disco-label {
+  @include label;
+
+  color: var(--text-heavy);
+  display: block;
+  font-family: var(--font-family);
+}

@@ -1,0 +1,15 @@
+disco-option {
+  .disco-dropdown__list-option {
+    @include paragraph;
+    list-style: none;
+    padding: 7px 1rem;
+
+    &:hover {
+      background-color: var(--paper);
+      cursor: pointer;
+    }
+    &--selected {
+      background-color: var(--paper);
+    }
+  }
+}
